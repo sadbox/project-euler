@@ -1,35 +1,9 @@
-# euler
+# Project Euler
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar euler-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+My answers as I learn Clojure and make my way through Project Euler
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 James McGuire
 
 Distributed under the Eclipse Public License, the same as Clojure.
