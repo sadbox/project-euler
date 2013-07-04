@@ -1,5 +1,4 @@
-(ns euler.euler_1
-  (:gen-class))
+(ns euler.euler_1)
 
 ; My solution to the first Project Euler problem
 (defn euler-bo []
