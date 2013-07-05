@@ -4,6 +4,7 @@
             [euler.euler-3 :as euler3]
             [euler.euler-4 :as euler4]
             [euler.euler-5 :as euler5]
+            [euler.euler-6 :as euler6]
             [euler.euler-7 :as euler7])
   (:gen-class))
 
@@ -20,5 +21,7 @@
   (println (euler4/euler 99 1000))
   (println "Problem 5:")
   (println (euler5/five 20))
+  (println "Problem 6:")
+  (println (euler6/six 101))
   (println "Problem 7:")
   (println (euler7/seven 10001)))
