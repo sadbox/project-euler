@@ -1,5 +1,4 @@
-(ns euler.euler-1
-  (:gen-class))
+(ns euler.euler-1)
 
 ; My solution to the first Project Euler problem
 (defn euler-bo []
@@ -9,11 +8,3 @@
                  (zero? (mod b 5)) b
                   :else 0)))
     (range 1000)))
-
-; Aaron's Solution
-(defn euler-aaron []
-  (apply + 
-    (filter 
-      #(or (zero? (mod % 3)) 
-           (zero? (mod % 5))) 
-      (range 1000))))
