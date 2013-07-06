@@ -9,8 +9,8 @@
     (fn [y] 
       (not-any? 
         #(div? y %) 
-        (range 3 (int (Math/sqrt y)) 2)))
-    (rest (range))))
+        (range 2 (+ 1 (int (Math/sqrt y))))))
+    (drop 2 (range))))
 
 (def fib-seq  
   (( fn rfib [a b] 
