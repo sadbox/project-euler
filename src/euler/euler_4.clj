@@ -3,7 +3,7 @@
 
 (defn is-palindrome
   [number]
-  (= (apply str (reverse (re-seq #"." (str number))))
+  (= (apply str (reverse (str number)))
      (str number)))
 
 (defn euler
