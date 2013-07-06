@@ -1,6 +1,6 @@
 # Project Euler
 
-My answers as I learn Clojure and make my way through Project Euler
+My answers as I learn [Clojure](http://clojure.org/) and make my way through [Project Euler](http://projecteuler.net/).
 
 ## License
 
