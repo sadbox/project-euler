@@ -1,3 +1,3 @@
-(ns euler.euler_4-test
+(ns euler.euler-4-test
   (:require [clojure.test :refer :all]
-            [euler.euler_4 :refer :all]))
+            [euler.euler-4 :refer :all]))

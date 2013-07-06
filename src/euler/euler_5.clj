@@ -1,9 +1,9 @@
 (ns euler.euler-5
-  (:require [clojure.contrib.lazy-seqs :as lazyseqs]))
+  (:require [euler.util :as util]))
 
 (defn result-of-primes
   [maxnum]
-  (apply * (take-while #(< % maxnum) lazyseqs/primes)))
+  (apply * (take-while #(< % maxnum) util/primes)))
 
 (defn five
   [maxnum]
