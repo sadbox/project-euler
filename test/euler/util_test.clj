@@ -10,7 +10,7 @@
   (is (= false (div? 7 3))))
 
 (deftest test-primes
-  (is (= (take 500 lazyseqs/primes) (take 500 primes)))
+  (is (= (take 10000 lazyseqs/primes) (take 10000 primes)))
   (is (= '(2) (take 1 primes))))
 
 (deftest test-fib

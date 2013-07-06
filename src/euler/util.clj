@@ -5,10 +5,10 @@
   (zero? (mod a b)))
 
 (def primes
-  (filter 
-    (fn [y] 
-      (not-any? 
-        #(div? y %) 
+  (filter
+    (fn [y]
+      (not-any?
+        #(div? y %)
         (range 2 (+ 1 (int (Math/sqrt y))))))
     (drop 2 (range))))
 

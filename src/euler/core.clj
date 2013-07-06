@@ -5,7 +5,8 @@
             [euler.euler-4 :as euler4]
             [euler.euler-5 :as euler5]
             [euler.euler-6 :as euler6]
-            [euler.euler-7 :as euler7])
+            [euler.euler-7 :as euler7]
+            [euler.euler-8 :as euler8])
   (:gen-class))
 
 (defn -main
@@ -24,4 +25,6 @@
   (println "Problem 6:")
   (println (euler6/six 101))
   (println "Problem 7:")
-  (println (euler7/seven 10001)))
+  (println (euler7/seven 10001))
+  (println "Problem 8:")
+  (println (euler8/greatest-product)))
