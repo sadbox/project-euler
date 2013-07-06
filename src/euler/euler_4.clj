@@ -1,7 +1,6 @@
 (ns euler.euler-4
   (require [clojure.math.combinatorics :as combos]))
 
-
 (defn is-palindrome
   [number]
   (= (apply str (reverse

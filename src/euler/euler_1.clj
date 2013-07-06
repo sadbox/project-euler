@@ -1,6 +1,5 @@
 (ns euler.euler-1)
 
-; My solution to the first Project Euler problem
 (defn euler-bo []
   (reduce 
     (fn [a b]
