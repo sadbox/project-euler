@@ -4,8 +4,8 @@
   [rangenum]
   (- 
     ((fn [x] (* x x)) 
-      (apply + (range 101))) 
+      (apply + (range rangenum))) 
     (apply + 
       (map 
         #(* % %) 
-        (range 101)))))
+        (range rangenum)))))

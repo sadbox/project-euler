@@ -5,16 +5,15 @@
 (defn splitnum
   [somenum size]
   (map 
-    #(subs longnum % (+ size %)) 
+    #(subs somenum % (+ size %)) 
     (range (- (count somenum) (- size 1)))))
 
 (defn greatest-product
   []
-  (reduce 
-    max 
+  (reduce max 
     (map 
       #(apply * 
         (map 
           (fn [x] (Character/getNumericValue x)) 
           (seq %))) 
-    (splitnum longnum 5))))
+      (splitnum longnum 5))))
